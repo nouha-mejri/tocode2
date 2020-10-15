@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<p1:livre titre="titre du  livre"
+    xmlns:p1="http://www.masociete.com"
+
+    xmlns:p2="http://www.monentreprise.com">
+    <p1:titre>titre du livre</p1:titre>
+    <p1:auteurs>
+        <p1:auteur>
+            <p1:nom>auteur1</p1:nom>
+            <p1:prenom>auteur1</p1:prenom>
+        </p1:auteur>
+        <p1:auteur>
+            <p1:nom>auteur2</p1:nom>
+            <p1:prenom>auteur2</p1:prenom>
+        </p1:auteur>
+    </p1:auteurs>
+    <p1:sections>
+        <p1:section>
+            <p1:titre>Section 1</p1:titre>
+            <p1:chapitres>
+                <p1:chapitre>
+                    <p1:titre>Chapitre 1</p1:titre>
+                    <p1:paragraphes>
+                        <p1:paragraphe>paragraphe 1</p1:paragraphe>
+                        <p1:paragraphe>paragraphe 2</p1:paragraphe>
+                    </p1:paragraphes>
+                </p1:chapitre>
+                <p1:chapitre>
+                    <p1:titre>Chapitre 2</p1:titre>
+                    <p1:paragraphes>
+                        <p1:paragraphe>paragraphe 1</p1:paragraphe>
+                        <p1:paragraphe>paragraphe 2</p1:paragraphe>
+                    </p1:paragraphes>
+                </p1:chapitre>
+            </p1:chapitres>
+        </p1:section>
+        <p2:section>
+            <p2:titre>Section 2</p2:titre>
+            <p2:chapitres>
+                <p2:chapitre>
+                    <p2:titre>Chapitre 1</p2:titre>
+                    <p2:paragraphes>
+                        <p2:paragraphe>paragraphe 1</p2:paragraphe>
+                        <p2:paragraphe>paragraphe 2</p2:paragraphe>
+                    </p2:paragraphes>
+                </p2:chapitre>
+                <p2:chapitre>
+                    <p2:titre>Chapitre 2</p2:titre>
+                    <p2:paragraphes>
+                        <p2:paragraphe>paragraphe 1</p2:paragraphe>
+                        <paragraphe>paragraphe 2</paragraphe>
+                    </p2:paragraphes>
+                </p2:chapitre>
+            </p2:chapitres>
+        </p2:section>
+    </p1:sections>
+</p1:livre>
